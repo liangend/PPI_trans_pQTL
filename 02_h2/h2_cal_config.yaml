@@ -1,0 +1,13 @@
+n_sample: 670
+
+prot: /project/xuanyao/jinghui/pqtl/05_h2/00_ref/gtex_blood_gene_w_coor.txt
+snp_list: /project/xuanyao/jinghui/pqtl/05_h2/00_ref/snplist_w_coor_hg38.txt
+ref_annot: /project/xuanyao/jinghui/pqtl/05_h2/00_ref/baseline/baseline.
+weight_ld: /project/xuanyao/jinghui/pqtl/05_h2/00_ref/weights_hm3_no_hla/weights.
+frqfile: /project/xuanyao/jinghui/pqtl/05_h2/00_ref/1000G_frq/1000G.mac5eur.
+
+tool_DIR: /project/xuanyao/jinghui/pqtl/05_h2/99_scripts/
+raw_sum_stats_DIR: /project/xuanyao/jinghui/pqtl/UKB_PPP/
+sumstats_DIR: /project/xuanyao/jinghui/pqtl/05_h2/01_sumstats/gtex_blood/trans_5mb/
+h2_DIR: /project/xuanyao/jinghui/pqtl/05_h2/02_h2_results/gtex_blood_h2/trans_5mb/
+

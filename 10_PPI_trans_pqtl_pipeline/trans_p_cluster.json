@@ -1,0 +1,33 @@
+{
+  "__default__" :
+    {
+      "job-name": "{rule}",
+      "partition": "xuanyao-hm",
+      "account": "pi-xuanyao", 
+      "qos": "xuanyao",
+      "time": "96:00:00",
+      "nodes": "1",
+      "mem": "20G",
+      "output": "../98_logs/{rule}.log",
+      "error": "../98_logs/{rule}.log",
+      "ntasks-per-node": "1"
+    },
+  "z_mat" :
+    {
+      "job-name": "{rule}.{wildcards.module}",
+      "mem": "50G",
+      "output": "../98_logs/{rule}.{wildcards.module}.%J.out",
+      "error": "../98_logs/{rule}.{wildcards.module}.%J.err"
+    },
+  "p" :
+    {
+      "job-name": "{rule}.{wildcards.module}.{wildcards.chr}",
+      "mem": "50G",
+      "output": "../98_logs/{rule}.{wildcards.module}.{wildcards.chr}.%J.out",
+      "error": "../98_logs/{rule}.{wildcards.module}.{wildcards.chr}.%J.err"
+    },
+  "small_p" :
+    {
+      "mem": "80G"      
+    }
+}

@@ -1,0 +1,16 @@
+Nchr: 22
+Nmodule: 174
+p_thre: 0.0001
+
+prot_meta: /project/xuanyao/jinghui/pqtl/11_prot_complex/ppi_input/mcl_result/mcl_mod_in_interval.txt ## PPI clusters
+dir_sum_stats: /project2/xuanyao/cfbuenabadn/pQTL/ ## univariate pqtl summary stats
+indep_snp: /project/xuanyao/jinghui/pqtl/00_ref/dgn_geno/indep_snp.txt ## independent snps
+
+small_p: /project/xuanyao/jinghui/pqtl/04_fdr/interval/pco_small_p.txt
+
+tool_DIR: /project/xuanyao/jinghui/pqtl/99_scripts/src/
+z_DIR: /project/xuanyao/jinghui/pqtl/01_zmat/interval/
+sigma_DIR: /project/xuanyao/jinghui/pqtl/02_sigma/interval/
+p_DIR: /project/xuanyao/jinghui/pqtl/03_p/interval/
+
+

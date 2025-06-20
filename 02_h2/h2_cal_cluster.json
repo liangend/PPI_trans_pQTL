@@ -1,0 +1,28 @@
+{
+  "__default__" :
+    {
+      "job-name": "{rule}",
+      "partition": "xuanyao-hm",
+      "account": "pi-xuanyao", 
+      "qos": "xuanyao",
+      "time": "30:00:00",
+      "nodes": "1",
+      "mem": "10G",
+      "output": "../98_logs/{rule}.log",
+      "error": "../98_logs/{rule}.log",
+      "ntasks-per-node": "1"
+    },
+  "sumstats" :
+    {
+      "job-name": "{rule}.{wildcards.prot}",
+      "output": "../98_logs/{rule}.{wildcards.prot}.%J.out",
+      "error": "../98_logs/{rule}.{wildcards.prot}.%J.err"
+    },
+  "h2" :
+    {
+      "job-name": "{rule}.{wildcards.prot}",
+      "mem": "5G",
+      "output": "../98_logs/{rule}.{wildcards.prot}.%J.out",
+      "error": "../98_logs/{rule}.{wildcards.prot}.%J.err"
+    }
+}
